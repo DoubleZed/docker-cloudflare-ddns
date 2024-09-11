@@ -80,7 +80,7 @@ If you prefer to use [Docker Compose](https://docs.docker.com/compose/):
 version: '2'
 services:
   cloudflare-ddns:
-    image: oznu/cloudflare-ddns:latest
+    image: DoubleZed/cloudflare-ddns:latest
     restart: always
     environment:
       - API_KEY=xxxxxxx
